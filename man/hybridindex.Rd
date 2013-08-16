@@ -24,7 +24,7 @@ Gompert Z. and Buerkle C. A. (2010) introgress: a software package for mapping c
 }
 \examples{
 ## simulate parentals and F1 hybrids
-hybrids<-hybridsim(Nmarker=300, Na=100, Nb=100, Nf1=100, type="neutral", hybrid="F1")
+hybrids<-hybridsim(Nmarker=100, Na=100, Nb=100, Nf1=10, type="neutral", hybrid="F1")
 
 ## estimate hybrid index
 hest<-hybridindex(hybrids)

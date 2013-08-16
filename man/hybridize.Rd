@@ -6,7 +6,8 @@
 This function simulates AFLP profiles (or other dominant markers) of several hybrid classes (F1 and backcrosses on both parentals) from two parental populations. In addition, selection on several markers can be simulated for the hybrid progeny.
 }
 \usage{
-hybridize(pa,pb,Nf1, Nbxa = Nf1, Nbxb = Nf1, Nf2 = Nf1, type = "selection", hybrid = "all", Nsel = Nmarker * 0.1, S = 0)}
+hybridize(pa,pb,Nf1, Nbxa = Nf1, Nbxb = Nf1, Nf2 = Nf1, type = "selection",
+ hybrid = "all", Nsel = Nmarker * 0.1, S = 0)}
 
 \arguments{
 

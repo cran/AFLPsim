@@ -5,7 +5,8 @@
 \description{
 A \code{hybridsim} object can be plotted using the function \code{plot.hybridsim}, which is also used as the dedicated plot method. This function represents expected hybrid markers frequencies on a neutral sheet.}
 \usage{
-\method{plot}{hybridsim}(x,hybrid = c("F1", "BxA", "BxB"), col = "lightgreen", shade = 0.8, markers = x$SelMarkers, ...)
+\method{plot}{hybridsim}(x,hybrid = c("F1", "BxA", "BxB"), col = "lightgreen",
+ shade = 0.8, markers = x$SelMarkers, ...)
 }
 \arguments{
  \item{x}{A \code{hybridsim} object.}

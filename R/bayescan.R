@@ -10,7 +10,7 @@ function (mat, filename, nbp = 20, pilot = 5000, burn = 50000, exec=NULL)
         if (os == "Linux") 
             exec= "bayescan_2.1"
         if (os == "Darwin") 
-           stop("Not for Mac")
+            exec= "bayescan_2.1"
         if (os == "Windows") 
             shortPathName("C:/Program Files/BayeScan2.1/binaries/BayeScan2.1_win32bits_cmd_line.exe")
     }

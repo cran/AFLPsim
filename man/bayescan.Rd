@@ -16,7 +16,7 @@ bayescan(mat, filename, nbp = 20, pilot = 5000, burn = 50000, exec=NULL)}
   \item{exec}{a character string giving the path to BAYESCAN. By default it tries to guess it depending on the operating system (see details).}
 }
 \details{
-\code{bayescan} tries to guess the name of the executable program depending on the operating system. Specifically, the followings are used: "bayescan_2.1" under Linux, or "C:/Program Files/BayeScan2.1/binaries/BayeScan2.1_win32bits_cmd_line.exe" under Windows. For Mac is under development.
+\code{bayescan} tries to guess the name of the executable program depending on the operating system. Specifically, the followings are used: "bayescan_2.1" under Linux and Mac, or "C:/Program Files/BayeScan2.1/binaries/BayeScan2.1_win32bits_cmd_line.exe" under Windows.
 }
 \value{
 Several files with the results and a data.frame with the following variables:

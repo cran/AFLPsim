@@ -3,7 +3,8 @@
 \alias{hybridsim}
 \title{AFLP simulator with selection}
 \description{This function simulates AFLP profiles (or other dominant markers) of parentals and several hybrid classes (F1 and backcrosses on both parentals). In addition, selection on several markers can be simulated for the hybrid progeny.}
-\usage{hybridsim(Nmarker, Na, Nb, Nf1, Nbxa = Nf1, Nbxb = Nf1, Nf2 = Nf1, type = "selection", hybrid = "all", Nsel = Nmarker * 0.1, S = 0, apa = 0.5, apb = 0.5)}
+\usage{hybridsim(Nmarker, Na, Nb, Nf1, Nbxa = Nf1, Nbxb = Nf1, Nf2 = Nf1,
+ type = "selection", hybrid = "all", Nsel = Nmarker * 0.1, S = 0, apa = 0.5, apb = 0.5)}
 \arguments{
  \item{Nmarker}{The number of AFLP loci to simulate.}
  \item{Na}{number of AFLP profiles for Parental A.}
