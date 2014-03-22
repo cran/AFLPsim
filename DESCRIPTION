@@ -1,9 +1,9 @@
 Package: AFLPsim
 Type: Package
 Title: Hybrid simulation and genome scan for dominant markers
-Version: 0.2-2
+Version: 0.3-3
 Encoding: latin1
-Date: 2013-10-29
+Date: 2014-03-22
 Authors@R: c(person("Francisco", "Balao", role = c("aut", "cre"),email = "fbalao@us.es"),person("Juan Luis", "García-Castaño", role = "aut",email = "jlgc@us.es"))
 Maintainer: Francisco Balao <fbalao@us.es>
 Depends: R (>= 2.15.0)
@@ -14,9 +14,9 @@ License: GPL (>= 2)
 URL: http://www.r-project.org,
         http://personal.us.es/fbalao/software.html
 LazyData: true
-Packaged: 2013-10-29 15:31:03 UTC; fbalao
+Packaged: 2014-04-16 08:46:22 UTC; fbalao
 Author: Francisco Balao [aut, cre],
   Juan Luis García-Castaño [aut]
 NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2013-10-29 18:55:32
+Date/Publication: 2014-04-16 22:42:07
