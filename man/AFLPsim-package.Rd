@@ -16,12 +16,12 @@ To cite AFLPsim, please use citation("AFLPsim")
 \tabular{ll}{
 Package: \tab AFLPsim\cr
 Type: \tab Package\cr
-Version: \tab 0.3-3\cr
-Date: \tab 2013-03-22\cr
+Version: \tab 0.3-4\cr
+Date: \tab 2013-12-23\cr
 License: \tab GPL (>= 2)\cr
 }
 }
 \author{
-Francisco Balao; Juan Luis Garcia-Castano
+Francisco Balao; Juan Luis García-Castaño
 }
 \keyword{package}
