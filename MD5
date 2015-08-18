@@ -1,5 +1,5 @@
-3aede409ef75b926a6c201dbef322404 *DESCRIPTION
-25e844f3e850832237ec1a70a1ad29c4 *NAMESPACE
+d133cdadce7c0da51e54c69181476e46 *DESCRIPTION
+a9ec4dfc91ecd4e2db7a0748a3ef77fe *NAMESPACE
 13b0e7a387d060a632409194a67ed96c *R/bayescan.R
 6efcf545a956171aa702854620d8b255 *R/demosimhybrid.R
 971dbe869c0a23978c914b7360f17a03 *R/gscan.R
@@ -10,18 +10,21 @@
 398d0705971c7048c7e04d2472c5079b *R/plot.hybridsim.R
 34a88d6369dc6df023bd849eae921684 *R/sim2arlequin.R
 85b293205b709977e201d4abc68d6bd8 *R/sim2bayescan.R
-aed5816049a3b2a5ab029e7cc5c222d0 *R/sim2genind.R
+f6575b1daf03d1e9baa69cd5ab48f6f3 *R/sim2genind.R
 d4d0588d0910a4e046746d33d6d65637 *R/sim2introgress.R
 4193926f8b88507e3e9d59a2bb9cc35e *R/sim2newhybrids.R
 722bdc9196c5866745cd354d82bcf1d4 *R/sim2popgene.R
 77ba36a760b3b231c88c915e1345b82f *R/sim2structure.R
 199bc999d81fb88e29dac8304ca888f2 *README
-f6af1b28c4aa87a11f04db50a3fab254 *README.md
+9aed692f0a199f11659e73245261e575 *README.md
+cdd001400b48313fd3a8e3fea6edb2a5 *build/vignette.rds
 840be19d925a91930b929fc5930f0c8f *inst/CITATION
 c7c421c6de732bb99c20eb08e12119f9 *inst/NEWS.Rd
+6122e938bd364cce11d53bf192337146 *inst/doc/AFLPsimManual.pdf
+6a85f32d5ed1dea31d3a6f998b12136f *inst/doc/AFLPsimManual.pdf.asis
 f9cae39671f43210ca3a42db9b90e883 *inst/files/SpeciesA.txt
 47859c73d48d20090a2e26ee47c4db57 *inst/files/SpeciesB.txt
-dc879c6c1152cb3426b632ebb4f30cab *man/AFLPsim-package.Rd
+b33370252ea42e0dce91a50dcda25883 *man/AFLPsim-package.Rd
 6bf094892096158c11d71f78a1ff2cba *man/bayescan.Rd
 84aed134f47a252ba9f4bddee9902ef6 *man/demosimhybrid.Rd
 fdccb0b5ce9940c946d976a5f3364a84 *man/gscan.Rd
@@ -37,3 +40,4 @@ efe9749b89a7c02d733b5791c98758ce *man/sim2introgress.Rd
 e8697f0a5a49f2d75d848de37a01b952 *man/sim2newhybrids.Rd
 e69c8c777ae83063fcf4cdb697c9b252 *man/sim2popgene.Rd
 f1febdbc7d1490ff3e231759fc70179a *man/sim2structure.Rd
+6a85f32d5ed1dea31d3a6f998b12136f *vignettes/AFLPsimManual.pdf.asis

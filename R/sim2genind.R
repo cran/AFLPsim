@@ -18,6 +18,6 @@ sim2genind<-  function(x){
     pop<-rep(popnames[1:N2],n[1:N2])
       
      X<-do.call("rbind",x)
-     genindobj<-df2genind(X, pop=pop, missing=NA, ploidy=2, type="PA")
+     genindobj<-df2genind(X, pop=pop, ploidy=2, type="PA",  ncode=1)
       genindobj
 }

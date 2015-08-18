@@ -1,7 +1,12 @@
 exportPattern("^[[:alpha:]]+")
 import(adegenet)
 import(introgress)
-exportClasses(hybridsim,
-demosimhybrid)
+importFrom("grDevices", "trans3d")
+importFrom("graphics", "barplot", "layout", "legend", "par", "persp","points", "segments")
+importFrom("stats", "binom.test", "p.adjust", "qbeta", "rbeta","rbinom")
+importFrom("utils", "capture.output", "read.table")
+S3method(plot, hybridsim, plot.hybridsim)
+S3method(plot, demosimhybrid, plot.demosimhybrid)
+exportClasses(hybridsim,demosimhybrid)
 exportMethods(plot)
 
